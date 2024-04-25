@@ -25,7 +25,7 @@ import java.util.Objects;
  * Postgresql配置类
  *
  * @author alanna
- * @since 1.0
+ * @since 0.1
  */
 @ConditionalOnProperty(prefix = "salamander.data", name = "db-type", havingValue = "postgresql")
 @Configuration

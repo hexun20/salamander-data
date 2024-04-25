@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
  * 专为数据库主键存在默认值的表设计
  *
  * @author alanna
- * @since 1.0
+ * @since 0.1
  */
 @SuppressWarnings({"unused", "UnusedReturnValue"})
 public abstract class BaseAutoIdEntity<T extends Serializable> {

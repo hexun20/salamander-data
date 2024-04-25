@@ -11,6 +11,10 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
+/**
+ * @author alanna
+ * @since 0.1
+ */
 @ConditionalOnProperty(prefix = "salamander.data.redis", name = "power", havingValue = "on")
 @Configuration
 public class RedisConfig {

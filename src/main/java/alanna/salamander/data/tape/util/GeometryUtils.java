@@ -16,7 +16,7 @@ import java.sql.SQLException;
  * PostGIS geometry util
  *
  * @author alanna
- * @since 1.0
+ * @since 0.1
  */
 @SuppressWarnings({"unused", "UnusedReturnValue"})
 public class GeometryUtils {
